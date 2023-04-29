@@ -18,13 +18,14 @@
 		B153FC1729FD278B00ABE8F3 /* SnoozeTube Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B153FC1629FD278B00ABE8F3 /* SnoozeTube Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B153FC1C29FD278B00ABE8F3 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B153FC1B29FD278B00ABE8F3 /* SafariWebExtensionHandler.swift */; };
 		B153FC1F29FD278B00ABE8F3 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B153FC1E29FD278B00ABE8F3 /* _locales */; };
-		B153FC2129FD278B00ABE8F3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2029FD278B00ABE8F3 /* images */; };
-		B153FC2329FD278B00ABE8F3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2229FD278B00ABE8F3 /* manifest.json */; };
-		B153FC2529FD278B00ABE8F3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2429FD278B00ABE8F3 /* background.js */; };
-		B153FC2729FD278B00ABE8F3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2629FD278B00ABE8F3 /* content.js */; };
-		B153FC2929FD278B00ABE8F3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2829FD278B00ABE8F3 /* popup.html */; };
-		B153FC2B29FD278B00ABE8F3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2A29FD278B00ABE8F3 /* popup.css */; };
-		B153FC2D29FD278B00ABE8F3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC2C29FD278B00ABE8F3 /* popup.js */; };
+		B153FC3A29FD280800ABE8F3 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B153FC3929FD280800ABE8F3 /* Logo.png */; };
+		B153FC4329FD286600ABE8F3 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC3C29FD286600ABE8F3 /* background.js */; };
+		B153FC4429FD286600ABE8F3 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B153FC3D29FD286600ABE8F3 /* manifest.json */; };
+		B153FC4529FD286600ABE8F3 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC3E29FD286600ABE8F3 /* content.js */; };
+		B153FC4629FD286600ABE8F3 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B153FC3F29FD286600ABE8F3 /* popup.js */; };
+		B153FC4729FD286600ABE8F3 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B153FC4029FD286600ABE8F3 /* popup.css */; };
+		B153FC4829FD286600ABE8F3 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B153FC4129FD286600ABE8F3 /* popup.html */; };
+		B153FC5729FD295000ABE8F3 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B153FC5629FD295000ABE8F3 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,15 +67,16 @@
 		B153FC1629FD278B00ABE8F3 /* SnoozeTube Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SnoozeTube Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B153FC1B29FD278B00ABE8F3 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		B153FC1E29FD278B00ABE8F3 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
-		B153FC2029FD278B00ABE8F3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
-		B153FC2229FD278B00ABE8F3 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		B153FC2429FD278B00ABE8F3 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		B153FC2629FD278B00ABE8F3 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		B153FC2829FD278B00ABE8F3 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		B153FC2A29FD278B00ABE8F3 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		B153FC2C29FD278B00ABE8F3 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		B153FC2E29FD278B00ABE8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B153FC2F29FD278B00ABE8F3 /* SnoozeTube_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnoozeTube_Extension.entitlements; sourceTree = "<group>"; };
+		B153FC3929FD280800ABE8F3 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../../../SnoozeTube/Logo.png; sourceTree = "<group>"; };
+		B153FC3C29FD286600ABE8F3 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/background.js"; sourceTree = "<group>"; };
+		B153FC3D29FD286600ABE8F3 /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = manifest.json; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/manifest.json"; sourceTree = "<group>"; };
+		B153FC3E29FD286600ABE8F3 /* content.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/content.js"; sourceTree = "<group>"; };
+		B153FC3F29FD286600ABE8F3 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/popup.js"; sourceTree = "<group>"; };
+		B153FC4029FD286600ABE8F3 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/popup.css"; sourceTree = "<group>"; };
+		B153FC4129FD286600ABE8F3 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/popup.html"; sourceTree = "<group>"; };
+		B153FC5629FD295000ABE8F3 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../../YoutubeExtension/YoutubeExtension Extension/Resources/images"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		B153FBFF29FD278900ABE8F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B153FC3929FD280800ABE8F3 /* Logo.png */,
 				B153FC0029FD278900ABE8F3 /* Main.html */,
 				B153FC0329FD278900ABE8F3 /* Icon.png */,
 				B153FC0529FD278900ABE8F3 /* Style.css */,
@@ -152,14 +155,14 @@
 		B153FC1D29FD278B00ABE8F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B153FC5629FD295000ABE8F3 /* images */,
 				B153FC1E29FD278B00ABE8F3 /* _locales */,
-				B153FC2029FD278B00ABE8F3 /* images */,
-				B153FC2229FD278B00ABE8F3 /* manifest.json */,
-				B153FC2429FD278B00ABE8F3 /* background.js */,
-				B153FC2629FD278B00ABE8F3 /* content.js */,
-				B153FC2829FD278B00ABE8F3 /* popup.html */,
-				B153FC2A29FD278B00ABE8F3 /* popup.css */,
-				B153FC2C29FD278B00ABE8F3 /* popup.js */,
+				B153FC3C29FD286600ABE8F3 /* background.js */,
+				B153FC3E29FD286600ABE8F3 /* content.js */,
+				B153FC3D29FD286600ABE8F3 /* manifest.json */,
+				B153FC4029FD286600ABE8F3 /* popup.css */,
+				B153FC4129FD286600ABE8F3 /* popup.html */,
+				B153FC3F29FD286600ABE8F3 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B153FC0429FD278900ABE8F3 /* Icon.png in Resources */,
+				B153FC3A29FD280800ABE8F3 /* Logo.png in Resources */,
 				B153FC0D29FD278900ABE8F3 /* Main.storyboard in Resources */,
 				B153FC0829FD278900ABE8F3 /* Script.js in Resources */,
 				B153FC0229FD278900ABE8F3 /* Main.html in Resources */,
@@ -258,14 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B153FC2529FD278B00ABE8F3 /* background.js in Resources */,
-				B153FC2B29FD278B00ABE8F3 /* popup.css in Resources */,
-				B153FC2929FD278B00ABE8F3 /* popup.html in Resources */,
-				B153FC2129FD278B00ABE8F3 /* images in Resources */,
-				B153FC2329FD278B00ABE8F3 /* manifest.json in Resources */,
+				B153FC4429FD286600ABE8F3 /* manifest.json in Resources */,
+				B153FC4829FD286600ABE8F3 /* popup.html in Resources */,
+				B153FC4729FD286600ABE8F3 /* popup.css in Resources */,
+				B153FC4629FD286600ABE8F3 /* popup.js in Resources */,
+				B153FC5729FD295000ABE8F3 /* images in Resources */,
+				B153FC4329FD286600ABE8F3 /* background.js in Resources */,
 				B153FC1F29FD278B00ABE8F3 /* _locales in Resources */,
-				B153FC2729FD278B00ABE8F3 /* content.js in Resources */,
-				B153FC2D29FD278B00ABE8F3 /* popup.js in Resources */,
+				B153FC4529FD286600ABE8F3 /* content.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
